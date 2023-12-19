@@ -1,0 +1,50 @@
+.heading {
+  background-image: url(for_Banner.jpg);
+  height: 200px;
+  text-align: center;
+  color: #588b9d;
+  margin-top: 20px;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.individual-card {
+  transition: 1s;
+  border-radius: 10%;
+  padding: 7px 0px;
+}
+
+.individual-card:hover {
+  border: 5px solid #588b9d;
+}
+
+.cards-div {
+  padding: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-button {
+  display: block;
+  margin: 0 auto;
+  color: #588b9d;
+  border: 1px solid #588b9d;
+  transition: 0.3s;
+}
+
+.card-button:hover {
+  background-color: #588b9d;
+  color: aliceblue;
+}
+
+.cards-name {
+  color: #64696b;
+}

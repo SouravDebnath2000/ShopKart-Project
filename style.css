@@ -1,0 +1,170 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+p {
+  font-size: 16px;
+  padding: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+hr {
+  width: 100%;
+  color: #5bb5d3;
+  margin: 20px;
+  height: 5px;
+}
+
+li {
+  color: #9dbac4;
+}
+
+/* body {
+  width: 100px;
+} */
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(main_image.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.header-span {
+  position: relative;
+  top: 75px;
+  font-size: 85px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.featured_div {
+  margin: 45px;
+}
+
+.featured-heading {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #64696b;
+}
+
+.featured-para {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #9dbac4;
+}
+
+.individual-card {
+  transition: 1s;
+  border-radius: 10%;
+  padding: 7px 0px;
+}
+
+.individual-card:hover {
+  border: 5px solid #588b9d;
+}
+
+.cards-div {
+  padding: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-button {
+  display: block;
+  margin: 0 auto;
+  color: #588b9d;
+  border: 1px solid #588b9d;
+  transition: 0.3s;
+}
+
+.card-button:hover {
+  background-color: #588b9d;
+  color: aliceblue;
+}
+
+.cards-name {
+  color: #64696b;
+}
+
+.banner_div {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(88, 139, 157, 1) 100%,
+    rgba(128, 164, 171, 1) 100%
+  );
+
+  width: 100%;
+  height: 300px;
+}
+
+.banner-heading {
+  position: relative;
+  top: 35%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.up-too {
+  color: #99c3d1;
+}
+
+.banner-span {
+  color: #588b9d;
+}
+
+.banner_button {
+  position: relative;
+  top: 40%;
+  display: block;
+  margin: 0 auto;
+  color: #588b9d;
+  border: 1px solid #588b9d;
+  transition: 1s;
+}
+
+.banner_button:hover {
+  background-color: #588b9d;
+  color: aliceblue;
+}

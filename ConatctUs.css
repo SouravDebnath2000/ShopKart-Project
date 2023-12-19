@@ -1,0 +1,39 @@
+.mainImage {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  filter: blur(3px);
+}
+
+.back {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  font-size: 30px;
+}
+
+.heading {
+  text-align: center;
+  color: #97bcc9;
+  position: absolute;
+  top: 200px;
+  right: 45%;
+}
+
+.contact {
+  position: absolute;
+  top: 300px;
+  right: 35%;
+}
+
+.banner_button {
+  position: relative;
+  top: 40%;
+  display: block;
+  margin: 0 auto;
+  color: aliceblue;
+  background-color: #588b9d;
+  border-radius: 10px;
+  padding: 5px 30px;
+  margin-top: 30px;
+}

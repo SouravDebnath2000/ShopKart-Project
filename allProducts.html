@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- j qyery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="allProduct.css" />
+    <title>All Products</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <div id="header"></div>
+
+    <!-- product section -->
+    <h1 class="heading">All Products</h1>
+    <section class="cards">
+      <div class="cards-div">
+        <h3 class="cards-name">Men...</h3>
+        <div class="card-body">
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="MenDress/shirt1.jpg"
+                      class="d-block w-100"
+                      alt="shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="MenDress/whiteShirt2.jpg"
+                      class="d-block w-100"
+                      alt="shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="MenDress/shirt3.jpg"
+                      class="d-block w-100"
+                      alt="shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">White Shirt</h5>
+                <p class="card-text">
+                  Classic and versatile piece of clothing. Timeless elegance.
+                  <br />
+                  <br />
+                  <br /><s>&#8377;3999</s>&nbsp;&nbsp;&#8377;1199
+                </p>
+
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;
+                  <i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="MenDress/tShirt1.jpeg"
+                      class="d-block w-100"
+                      alt="T shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="MenDress/tShirt2.jpg"
+                      class="d-block w-100"
+                      alt="T shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="MenDress/tShirt3.jpg"
+                      class="d-block w-100"
+                      alt="T shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">T Shirt</h5>
+                <p class="card-text">
+                  Casual shirt comfortable and breathable materials <br />
+                  <br />
+                  <br /><s>&#8377;999</s>&nbsp;&nbsp;&#8377;299
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="MenDress/jeans1.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="MenDress/jeans2.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="MenDress/jeans3.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Fabulous Jeans</h5>
+                <p class="card-text">
+                  Durable and versatile pants that have become a fundamental
+                  piece of clothing<br />
+                  <br /><s>&#8377;4999</s>&nbsp;&nbsp;&#8377;1499
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Woman -->
+
+      <div class="cards-div">
+        <h3 class="cards-name">Women...</h3>
+        <div class="card-body">
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="WomanDress/skirt1.jpg"
+                      class="d-block w-100"
+                      alt="shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Long Skirtt</h5>
+                <p class="card-text">
+                  Classic and versatile piece of clothing. Timeless elegance.
+                  <br />
+                  <br />
+                  <br /><s>&#8377;3999</s>&nbsp;&nbsp;&#8377;1199
+                </p>
+
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;
+                  <i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="WomanDress/saree2.jpg"
+                      class="d-block w-100"
+                      alt="T shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Traditional Saree</h5>
+                <p class="card-text">
+                  Quintessential garment comfortable, breathable materials
+                  <br />
+                  <br />
+                  <br /><s>&#8377;999</s>&nbsp;&nbsp;&#8377;299
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="WomanDress/professional1.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="WomanDress/professional2.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                  <!-- <div class="carousel-item">
+                    <img
+                      src="MenDress/jeans3.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div> -->
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Professioanl Wearable</h5>
+                <p class="card-text">
+                  Durable and versatile Professioanl that have become a
+                  fundamental piece of clothing<br />
+                  <br /><s>&#8377;4999</s>&nbsp;&nbsp;&#8377;1499
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="cards-div">
+        <h3 class="cards-name">Kids...</h3>
+        <div class="card-body">
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <!--   -->
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="kidsDress/kidsdress1.jpg"
+                      class="d-block w-100"
+                      alt="shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Comfy Dress</h5>
+                <p class="card-text">
+                  Classic and versatile piece of clothing. Timeless elegance.
+                  <br />
+                  <br />
+                  <br /><s>&#8377;3999</s>&nbsp;&nbsp;&#8377;1199
+                </p>
+
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;
+                  <i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="kidsDress/kidsDress2.jpg"
+                      class="d-block w-100"
+                      alt="T shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Girly Top</h5>
+                <p class="card-text">
+                  Casual shirt comfortable and breathable materials <br />
+                  <br />
+                  <br /><s>&#8377;999</s>&nbsp;&nbsp;&#8377;299
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="kidsDress/kidsDress3.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Fabulous Lotus</h5>
+                <p class="card-text">
+                  Durable and versatile pants that have become a fundamental
+                  piece of clothing<br />
+                  <br /><s>&#8377;4999</s>&nbsp;&nbsp;&#8377;1499
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Woman -->
+
+      <div class="cards-div">
+        <div class="card-body">
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="kidsDress/kidsDress4.jpg"
+                      class="d-block w-100"
+                      alt="shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Long Skirtt</h5>
+                <p class="card-text">
+                  Classic and versatile piece of clothing. Timeless elegance.
+                  <br />
+                  <br />
+                  <br /><s>&#8377;3999</s>&nbsp;&nbsp;&#8377;1199
+                </p>
+
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;
+                  <i class="fa-solid fa-cart-shopping"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="kidsDress/kidsDress5.jpg"
+                      class="d-block w-100"
+                      alt="T shirt picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">School Wearable</h5>
+                <p class="card-text">
+                  Quintessential garment comfortable, breathable materials
+                  <br />
+                  <br />
+                  <br /><s>&#8377;999</s>&nbsp;&nbsp;&#8377;299
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="individual-card">
+            <div class="card" style="width: 18rem">
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="kidsDress/kidsDress6.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="kidsDress/kidsDress4.jpg"
+                      class="d-block w-100"
+                      alt="jeans picture"
+                      height="400px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cute Lilly</h5>
+                <p class="card-text">
+                  Durable and cute lilly dress for comfort that have become a
+                  fundamental piece of clothing<br />
+                  <br /><s>&#8377;4999</s>&nbsp;&nbsp;&#8377;1499
+                </p>
+                <a href="#" class="btn btn-outline card-button"
+                  >Go To Cart &nbsp;&nbsp;<i
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+      });
+
+      $(function () {
+        $("#footer").load("footer.html");
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
